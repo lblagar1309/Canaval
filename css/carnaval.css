@@ -1,0 +1,140 @@
+
+.menu {
+  position:fixed; 
+  top:0;
+  left:0;
+  width:100%;
+  background-color:rgb(255, 73, 173);
+  height:80px;
+}
+#logo{
+  font-size: 1.5em;
+}
+#logoyt{
+position:absolute;
+top:20px; 
+right:60px;
+width:65px;
+height:50px; 
+}
+#logo-container:hover .logo {
+  filter: hue-rotate(180deg); 
+}
+
+#index{
+  color:white;
+  position:absolute;
+  float:center;
+  left:300px;
+  top:30px;
+  text-decoration: none;
+ 
+}
+#historia{
+  color:white;
+  position:absolute; 
+  float:center;
+  left: 550px; 
+  top:30px;
+  text-decoration: none;
+  
+}
+#agrupaciones{
+  color:white;
+  position:absolute;
+  float:center; 
+  left:800px;
+  top:30px;
+  text-decoration: none;
+  
+}
+#concurso{
+  color:white;
+  position:absolute; 
+  float:center;
+  left:1100px;
+  top:30px;
+  text-decoration: none;
+  t
+}
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+
+.pagina {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  background-color:grey;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif; 
+  background: linear-gradient(135deg, #fff3e1, #ffd5b5); 
+  color: #333; 
+  padding-bottom: 200px;
+}
+ h1, h2, h3 { 
+  font-family: 'Montserrat', sans-serif; font-weight: 600; 
+} 
+  p { 
+    font-family: 'Montserrat', sans-serif; font-weight: 300; 
+  }
+  footer {
+     background-color: rgba(219, 219, 219, 0.91); 
+     color: white; text-align: center;  
+    font-size: 0.10em; 
+    height: 125px;  
+    line-height: 1.2;
+  }
+  .brand {
+      color: #000000;
+      font-size: 10px;  
+    }
+  
+  footer a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 10px;
+    font-weight: bold; 
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+  input, textarea, button {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input:focus, textarea:focus {
+  border-color: pink;
+  outline: none;
+}
+input:focus::placeholder, textarea:focus::placeholder {
+  color: white;
+}
+  button:hover {
+    background-color: pink; 
+    color: white; 
+}
+.video{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.historia .index-link:hover,
+.agrupaciones .index-link:hover,
+.concurso .index-link:hover {
+    color:rgb(247, 232, 147);
+}
