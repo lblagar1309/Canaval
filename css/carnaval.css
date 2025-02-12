@@ -141,51 +141,28 @@ input:focus::placeholder, textarea:focus::placeholder {
 
 
 @media(max-width: 768px) {
-     .menu {
+    .menu {
         align-items: center;
         text-align: center;
     }
-#index{
-  position:absolute;
-  float:center;
-  left:10px;
-  top:10px;
-}
-  #historia{
-  position:absolute; 
-  float:center;
-  left: 10px; 
-  top:10px;
-  
-}  
-
-#agrupaciones{
-  position:absolute;
-  float:center; 
-  left:10px;
-  top:10px;  
-}  
-  #concurso{
-  position:absolute; 
-  float:center;
-  left:10px;
-  top:10px;
-  
-}
-
+    #index, #historia, #agrupaciones, #concurso {
+        position: relative;
+        float: none;
+        left: 10px;
+        top: 10px;
+        display: block;
+        margin-bottom: 10px;
+    }
     .menu a {
         padding: 10px;
         font-size: 16px;
     }
-
     .menu img {
         max-height: 50px;
     }
-
     footer form {
         align-items: center;
     }
-
     footer input, footer button {
         width: 90%;
         margin-bottom: 10px;
