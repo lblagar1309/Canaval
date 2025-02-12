@@ -141,9 +141,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 
 
 @media(max-width: 768px) {
-    .menu {
-        display: flex;
-        flex-direction: column;
+     .menu {
         align-items: center;
         text-align: center;
     }
@@ -187,4 +185,6 @@ input:focus::placeholder, textarea:focus::placeholder {
         width: 90%;
         margin-bottom: 10px;
     }
+} 
+
 }
