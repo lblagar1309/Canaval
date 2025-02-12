@@ -154,7 +154,7 @@ input:focus::placeholder, textarea:focus::placeholder {
   #historia{
   position:absolute; 
   float:center;
-  left: 15px; 
+  left: 10px; 
   top:10px;
   
 }  
@@ -162,14 +162,14 @@ input:focus::placeholder, textarea:focus::placeholder {
 #agrupaciones{
   position:absolute;
   float:center; 
-  left:20px;
-  top:30px;  
+  left:10px;
+  top:10px;  
 }  
   #concurso{
   position:absolute; 
   float:center;
-  left:30px;
-  top:40px;
+  left:10px;
+  top:10px;
   
 }
 
