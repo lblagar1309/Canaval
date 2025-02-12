@@ -55,7 +55,7 @@ height:50px;
   left:1100px;
   top:30px;
   text-decoration: none;
-  t
+  
 }
 nav {
   display: flex;
@@ -159,19 +159,28 @@ input:focus::placeholder, textarea:focus::placeholder {
   float:center;
   left:300px;
   top:10px;
+}
+  #historia{
+  position:absolute; 
+  float:center;
+  left: 350px; 
+  top:20px;
   
-    
+}  
 
+#agrupaciones{
+  position:absolute;
+  float:center; 
+  left:400px;
+  top:30px;  
+}  
+  #concurso{
+  position:absolute; 
+  float:center;
+  left:450px;
+  top:40px;
   
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .pagina {
-        text-align: center;
-    }
+}
 
     footer form {
         align-items: center;
