@@ -138,3 +138,53 @@ input:focus::placeholder, textarea:focus::placeholder {
 .concurso .index-link:hover {
     color:rgb(247, 232, 147);
 }
+
+
+@media(max-width: 768px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu a {
+        display: block;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .menu img {
+        max-height: 50px;
+    }
+
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .pagina {
+        text-align: center;
+    }
+
+    footer form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer input, footer button {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}
